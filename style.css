@@ -83,5 +83,20 @@ footer hr {
 }
 
 .main-contents{
+   
+    text-align: center;
+    margin: 2rem;
+    margin-top: 8vh;
     min-height: 100vh;
+}
+
+
+.title{
+    font-size: 2rem;
+    font-weight: 700;
+    color: #5E72E4;
+}
+
+.paragraph{
+    font-size: 0.9rem
 }
