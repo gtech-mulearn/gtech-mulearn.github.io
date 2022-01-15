@@ -6,7 +6,6 @@
     margin: 0.25rem 1.75rem;
 }
 
-
 .mulearn-logo {
   width: 6rem;
 }
@@ -34,8 +33,6 @@
 }
 
 footer{
-    position: absolute;
-    bottom: 0;
     width: 100vw;
     padding: 4rem 2rem;
     background-color: #404040;
@@ -83,4 +80,8 @@ footer hr {
     display: block;
     padding-top: 1rem;
     color: rgb(176, 176, 245);
+}
+
+.main-contents{
+    min-height: 100vh;
 }
