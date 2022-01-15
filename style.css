@@ -3,12 +3,12 @@
 }
 
 .navbar-container{
-    margin: 0.25rem 3rem;
+    margin: 0.25rem 1.75rem;
 }
 
 
 .mulearn-logo {
-  width: 8rem;
+  width: 6rem;
 }
 
 .navbar-styles {
@@ -73,6 +73,7 @@ footer hr {
 }
 .address{
     color: white;
+    width: 25rem;
     font-weight: 200;
     font-size: 0.8rem;
 }
