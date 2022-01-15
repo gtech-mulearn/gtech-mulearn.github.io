@@ -2,6 +2,28 @@
   font-family: "Poppins", sans-serif;
 }
 
+.yip-div {
+  background-color: #f6832a;
+  color: white;
+  padding: 0.5rem;
+  text-align: center;
+  justify-content: center;
+}
+.yip-div a{
+    text-decoration: none;
+}
+
+.yip{
+    margin: auto;
+    font-size: 0.85rem;
+}
+
+.apply{
+    color: white;
+    margin-bottom: 0;
+    text-decoration: underline;
+}
+
 .navbar-container {
   margin: 0.25rem 1.75rem;
 }
