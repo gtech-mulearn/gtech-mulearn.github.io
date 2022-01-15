@@ -156,3 +156,17 @@ button:focus {
   font-size: 0.8rem;
   font-weight: 300;
 }
+
+@media only screen and (min-width: 900px) {
+  .footer-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 1rem;
+  }
+
+  footer {
+    padding: 1rem 2rem;
+  }
+}
