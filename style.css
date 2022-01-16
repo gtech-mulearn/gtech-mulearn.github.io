@@ -171,7 +171,7 @@ button:focus {
   flex-direction: row;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .footer-top {
     display: flex;
     flex-direction: row;
@@ -239,7 +239,17 @@ button:focus {
   width: 10rem;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1300px) {
+  .fsheading {
+    font-family: "Outfit", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 500;
+    color: #404040;
+  }
+  
+}
+
+@media only screen and (min-width: 1000px) {
   .firstsection {
     margin: 0 8.5rem;
     display: flex;
@@ -256,7 +266,7 @@ button:focus {
   }
 
   .fsheading {
-    font-size: 4.5rem;
+    font-size: 3.75rem;
   }
 
   .fsimage {
@@ -301,7 +311,7 @@ button:focus {
   color: #00cded;
 }
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 1000px) {
   .secondsection {
     text-align: center;
   }
