@@ -239,16 +239,6 @@ button:focus {
   width: 10rem;
 }
 
-@media only screen and (min-width: 1300px) {
-  .fsheading {
-    font-family: "Outfit", sans-serif;
-    font-size: 4.5rem;
-    font-weight: 500;
-    color: #404040;
-  }
-  
-}
-
 @media only screen and (min-width: 1000px) {
   .firstsection {
     margin: 0 8.5rem;
@@ -266,7 +256,7 @@ button:focus {
   }
 
   .fsheading {
-    font-size: 3.75rem;
+    font-size: 4.5rem;
   }
 
   .fsimage {
