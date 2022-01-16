@@ -25,7 +25,7 @@
 }
 
 .navbar-container {
-  margin: 0.25rem 1.75rem;
+  margin: 0.75rem 1.75rem;
 }
 
 .mulearn-logo {
@@ -71,6 +71,7 @@ footer a {
 
 .footer-links {
   margin: 2rem 0;
+  line-height: 2rem;
   font-size: 0.9rem;
 }
 
@@ -100,13 +101,6 @@ footer hr {
   color: rgb(176, 176, 245);
 }
 
-.main-contents {
-  text-align: center;
-  margin: 2rem;
-  margin-top: 8vh;
-  min-height: 35vh;
-}
-
 .title {
   font-size: 2rem;
   font-weight: 700;
@@ -114,7 +108,9 @@ footer hr {
 }
 
 .paragraph {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: white;
 }
 
 .newsletterinvite {
@@ -167,18 +163,6 @@ button:focus {
   flex-direction: row;
 }
 
-.headingtext {
-  font-size: 1.1rem;
-  color: white;
-  margin-top: 4vh;
-}
-
-.paragraph {
-  color: white;
-  font-size: 0.8rem;
-  font-weight: 300;
-}
-
 @media only screen and (min-width: 900px) {
   .footer-top {
     display: flex;
@@ -191,4 +175,25 @@ button:focus {
   footer {
     padding: 1rem 2rem;
   }
+}
+
+/* Main Body Content CSS */
+
+.main-contents {
+  text-align: center;
+  margin: 2rem;
+  margin-top: 8vh;
+  min-height: 35vh;
+}
+
+.headingtext {
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 4vh;
+}
+
+.intro-paragraph {
+  color: #404040;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
