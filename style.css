@@ -81,7 +81,7 @@ footer a {
   margin-left: 0.75rem;
 }
 
-.iconify:hover{
+.iconify:hover {
   color: #f6832a;
   background-color: #404040;
 }
@@ -109,7 +109,13 @@ footer hr {
   color: #5e72e4;
 }
 
-.paragraph {
+.fheadingtext {
+  font-size: 1.1rem;
+  color: white;
+  margin-top: 4vh;
+}
+
+.fparagraph {
   font-size: 0.8rem;
   font-weight: 300;
   color: white;
@@ -191,44 +197,51 @@ button:focus {
     margin-left: 0.75rem;
   }
 
-.footer-logo {
-  width: 6rem;
-  margin-top: 2vh;
-  margin-left: 0.75rem;
-}
+  .footer-logo {
+    width: 6rem;
+    margin-top: 2vh;
+    margin-left: 0.75rem;
+  }
 }
 
 /* Main Body Content CSS */
 
-.main-contents {
-  text-align: center;
+/* First Section of the Main Content */
+
+.firstsection {
+  margin: 0rem 2rem;
+  margin-top: 5vh;
+}
+
+.fsheading {
+  font-family: "Outfit",sans-serif;
+  font-size: 2.25rem;
+  font-weight: 500;
+  color: #404040;
+}
+
+.fstagline {
+  color: #404040;
+  
+}
+
+/* Section Section of Main Content */
+
+.secondsection {
+  text-align: left;
   margin: 2rem;
   margin-top: 8vh;
   min-height: 35vh;
 }
 
-.headingtext {
-  font-size: 1.1rem;
-  color: white;
-  margin-top: 4vh;
-}
-
-.intro-paragraph {
-  color: #404040;
-  font-size: 0.9rem;
-  font-weight: 500;
-}
-
-/* Section Section of Main Content */
-
-
-.join, .assignments, .improve{
+.join,
+.assignments,
+.improve {
   margin: 8vh 0vw;
-  
 }
 
 .sslogo {
-  width:4.25rem;
+  width: 4.25rem;
 }
 
 .ssheading {
@@ -249,14 +262,16 @@ button:focus {
 }
 
 @media only screen and (min-width: 900px) {
-  .secondsection{
+  .secondsection {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
   }
 
-  .join, .assignments, .improve{
+  .join,
+  .assignments,
+  .improve {
     margin: 8vh 0vw;
     max-width: 25%;
     font-size: 1rem;
