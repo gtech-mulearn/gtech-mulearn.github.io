@@ -228,22 +228,41 @@ button:focus {
   color: #404040;
 }
 
+.illustrations{
+  display: flex;
+  justify-content: center;
+
+}
+
+.fsimage {
+  margin-top: 5vh;
+  width: 10rem;
+}
+
 @media only screen and (min-width: 900px) {
-  .firstsection{
+  .firstsection {
     margin: 0 8.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
   .fstagline {
     line-height: 28px;
   }
 
-  .fstexts{
+  .fstexts {
     margin-top: 10vh;
+    width: 50vw;
   }
 
-  .fsheading{
+  .fsheading {
     font-size: 4.5rem;
   }
 
+  .fsimage {
+    margin-top: 5vh;
+    width: 12rem;
+  }
 }
 
 /* Section Section of Main Content */
