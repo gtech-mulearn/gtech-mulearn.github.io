@@ -81,6 +81,11 @@ footer a {
   margin-left: 0.75rem;
 }
 
+.iconify:hover{
+  color: #f6832a;
+  background-color: #404040;
+}
+
 footer hr {
   color: white;
   margin: 2rem 0rem;
@@ -247,6 +252,7 @@ button:focus {
   .secondsection{
     display: flex;
     flex-direction: row;
+    align-items: center;
     justify-content: space-around;
   }
 
