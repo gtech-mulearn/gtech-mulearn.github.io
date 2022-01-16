@@ -180,7 +180,11 @@ button:focus {
   }
 
   footer {
-    padding: 1rem 2rem;
+    padding: 1rem 6rem;
+  }
+
+  .navbar-container {
+    margin: 0.75rem 7.5rem;
   }
 
   .navbar-styles {
@@ -230,16 +234,17 @@ button:focus {
   }
   .fstagline {
     line-height: 28px;
+    width: 40vw;
   }
 
   .fstexts{
     margin-top: 10vh;
-    width: 40vw;
   }
 
   .fsheading{
     font-size: 4.5rem;
   }
+
 }
 
 /* Section Section of Main Content */
