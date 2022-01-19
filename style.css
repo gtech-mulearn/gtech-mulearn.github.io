@@ -53,12 +53,12 @@
 footer {
   padding: 4rem 2rem;
   background-color: #404040;
-  /* margin-top: 50vh; */
+  margin-top: 10vh;
 }
 
 .footer-logo {
   width: 5rem;
-  margin-left: 0.75rem;
+  /* margin-left: 0.75rem; */
 }
 
 footer a {
@@ -73,16 +73,20 @@ footer a {
 }
 
 .footer-links a {
-  margin: 0 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .footer-links a:hover {
   color: #fd7915;
 }
 
+.social-links a{
+  text-decoration: none;
+}
+
 .iconify {
   font-size: 2rem;
-  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .iconify:hover {
@@ -202,13 +206,12 @@ button:focus {
 
   .iconify {
     font-size: 2.5rem;
-    margin-left: 0.75rem;
+    margin-right: 0.75rem;
   }
 
   .footer-logo {
     width: 6rem;
     margin-top: 2vh;
-    margin-left: 0.75rem;
   }
 }
 
