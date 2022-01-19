@@ -76,6 +76,10 @@ footer a {
   margin: 0 0.75rem;
 }
 
+.footer-links a:hover {
+  color: #fd7915;
+}
+
 .iconify {
   font-size: 2rem;
   margin-left: 0.75rem;
@@ -228,7 +232,7 @@ button:focus {
   color: #404040;
 }
 
-.fsbtn{
+.fsbtn {
   background-color: #5865f2;
   border: none;
   color: white;
@@ -236,7 +240,7 @@ button:focus {
   border-radius: 5px;
 }
 
-.fssbtn{
+.fssbtn {
   color: #5865f2;
   border: 2px solid #5865f2;
   background-color: white;
@@ -244,7 +248,8 @@ button:focus {
   border-radius: 5px;
 }
 
-.fsbtn:hover, .fssbtn:hover{
+.fsbtn:hover,
+.fssbtn:hover {
   box-shadow: 0px 0px 10px #aeb3e6;
 }
 
@@ -269,12 +274,11 @@ button:focus {
     line-height: 28px;
   }
 
-  .fsbtn{
+  .fsbtn {
     padding: 0.5rem 1.5rem;
     font-size: 1rem;
     border-radius: 5px;
   }
-  
 
   .fstexts {
     margin-top: 10vh;
