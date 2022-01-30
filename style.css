@@ -179,6 +179,18 @@ button:focus {
   flex-direction: row;
 }
 
+.social-links a{
+ text-decoration: none;
+}
+
+.social-links a:hover{
+  color: #f6832a;
+ }
+
+.iconify:hover{
+  color: #f6832a;
+}
+
 @media only screen and (min-width: 1000px) {
   .footer-top {
     display: flex;
