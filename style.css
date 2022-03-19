@@ -2,30 +2,9 @@
   font-family: "Poppins", sans-serif;
 }
 
-.yip-div {
-  background-color: #f6832a;
-  color: white;
-  padding: 0.5rem;
-  text-align: center;
-  justify-content: center;
-}
-.yip-div a {
-  text-decoration: none;
-}
-
-.yip {
-  margin: auto;
-  font-size: 0.85rem;
-}
-
-.apply {
-  color: white;
-  margin-bottom: 0;
-  text-decoration: underline;
-}
-
-.navbar-container {
-  margin: 0.75rem 1.75rem;
+nav {
+  padding: 1.75rem;
+  background-color: white;
 }
 
 .mulearn-logo {
@@ -43,7 +22,7 @@
 }
 
 .dropdown {
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .dropdown-item {
@@ -51,19 +30,23 @@
 }
 
 footer {
+  margin-top: 10vh;
   padding: 4rem 2rem;
   background-color: #404040;
-  margin-top: 10vh;
 }
 
 .footer-logo {
   width: 5rem;
-  /* margin-left: 0.75rem; */
 }
 
 footer a {
   text-decoration: none;
   color: #ffff;
+}
+
+.social-links a:hover,
+.footer-links a:hover {
+  color: #fd7915;
 }
 
 .footer-links {
@@ -74,14 +57,6 @@ footer a {
 
 .footer-links a {
   margin-right: 0.75rem;
-}
-
-.footer-links a:hover {
-  color: #fd7915;
-}
-
-.social-links a {
-  text-decoration: none;
 }
 
 .iconify {
@@ -169,6 +144,10 @@ button:focus {
   outline: none;
 }
 
+.nav-barbtn {
+  padding-bottom: 2vh;
+}
+
 .newsletter {
   width: 20rem;
 }
@@ -177,18 +156,6 @@ button:focus {
   color: white;
   display: flex;
   flex-direction: row;
-}
-
-.social-links a {
-  text-decoration: none;
-}
-
-.social-links a:hover {
-  color: #f6832a;
-}
-
-.iconify:hover {
-  color: #f6832a;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -201,10 +168,11 @@ button:focus {
 
   footer {
     padding: 1rem 6rem;
+    padding-bottom: 3rem;
   }
 
-  .navbar-container {
-    margin: 0.75rem 7.75rem;
+  .container-fluid {
+    padding: 0.55rem 4.3rem;
   }
 
   .navbar-styles {
@@ -218,12 +186,15 @@ button:focus {
 
   .iconify {
     font-size: 2.5rem;
-    margin-right: 0.75rem;
   }
 
   .footer-logo {
     width: 6rem;
     margin-top: 2vh;
+  }
+
+  .nav-barbtn {
+    padding-bottom: 0vh;
   }
 }
 
@@ -233,7 +204,7 @@ button:focus {
 
 .firstsection {
   margin: 0rem 2rem;
-  margin-top: 5vh;
+  margin-top: 13vh;
 }
 
 .fsheading {
@@ -281,6 +252,7 @@ button:focus {
 @media only screen and (min-width: 1000px) {
   .firstsection {
     margin: 0 8.5rem;
+    margin-top: 10vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -441,8 +413,8 @@ button:focus {
   align-items: center;
 }
 
-.clgframe, 
-.studentframe  {
+.clgframe,
+.studentframe {
   width: 80vw;
   height: 60vh;
   margin: 2.5vh 0;
@@ -450,17 +422,15 @@ button:focus {
   box-shadow: 0px 4px 10px #dddff7;
 }
 
-
 @media only screen and (min-width: 1000px) {
   .leaderboardsection {
     flex-direction: row;
     justify-content: space-evenly;
   }
 
-  .clgframe, 
+  .clgframe,
   .studentframe {
     width: 40vw;
     height: 50vh;
-    
   }
 }
