@@ -2,6 +2,13 @@
   font-family: "Poppins", sans-serif;
 }
 
+.highlight {
+  padding: 0.5rem 0;
+  color: white;
+  font-weight: 500;
+  background-color: #fd7915;
+}
+
 nav {
   padding: 1.75rem;
   background-color: white;
