@@ -9,6 +9,10 @@
   background-color: #fd7915;
 }
 
+a:hover{
+  color: inherit;
+}
+
 nav {
   padding: 1.75rem;
   background-color: white;
